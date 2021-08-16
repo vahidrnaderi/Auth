@@ -16,3 +16,8 @@ class Config:
 
     SQLALCHEMY_TRACK_MODIFICATIONS = TESTING
 
+    #########  User Configuration    ###########
+
+    USER_DEFAULT_ROLE = environ.get("SKOB_AUTHZ_USER_DEFAULT_ROLE", "member")
+
+    USER_DEFAULT_STATUS = environ.get("SKOB_AUTHZ_USER_DEFAULT_STATUS", "inactive")
