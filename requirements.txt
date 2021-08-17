@@ -4,6 +4,7 @@ cffi==1.14.6
 click==8.0.1
 cryptography==3.4.7
 Flask==2.0.1
+flask-marshmallow==0.14.0
 Flask-Migrate==3.1.0
 Flask-RESTful==0.3.9
 Flask-SQLAlchemy==2.5.1
@@ -12,6 +13,8 @@ itsdangerous==2.0.1
 Jinja2==3.0.1
 Mako==1.1.4
 MarkupSafe==2.0.1
+marshmallow==3.13.0
+marshmallow-sqlalchemy==0.26.1
 pkg_resources==0.0.0
 pycparser==2.20
 PyMySQL==1.0.2
