@@ -31,7 +31,7 @@ class UserController:
         user_schema = UserSchema()
         return {
                 "user": user_schema.dump(user)
-                }
+                },201
 
     def get_users():
         try:
